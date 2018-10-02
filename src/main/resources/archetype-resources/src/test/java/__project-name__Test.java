@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class ${project-name}Test
 {
     @Test
+    @DisplayName("Demo Test")
     void shouldAnswerWithTrue()
     {
         assertTrue( true );

@@ -3,7 +3,7 @@
 
   <requiredProperties>
     <requiredProperty key="project-name">
-      <defaultValue>App</defaultValue>
+      <defaultValue>Application</defaultValue>
     </requiredProperty>
     <requiredProperty key="property-file-name">
       <defaultValue>Resource-default</defaultValue>

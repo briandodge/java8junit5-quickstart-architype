@@ -6,11 +6,16 @@ import lombok.extern.slf4j.Slf4j;
  * Entrypoint for ${project-name}.
  */
 @Slf4j
-public class ${project-name}
-{
-    public static void main(String... args) {
+public class ${project-name} {
 
-        log.info("Application started successfully with args {}", args);
+    /**
+     * Java entrypoint.
+     * @param args command line arguments.
+     */
+    public static void main(String[] args) {
+
+        log.info("Application started successfully with args {}", (Object[]) args);
 
     }
+
 }

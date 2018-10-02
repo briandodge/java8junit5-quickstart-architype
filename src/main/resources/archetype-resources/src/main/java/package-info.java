@@ -1,4 +1,4 @@
 /**
- * Description of you package.
+ * Description of your package.
  */
 package ${package};
